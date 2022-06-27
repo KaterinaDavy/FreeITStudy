@@ -53,7 +53,7 @@ public class Task_2 {
                 return "Autumn";
             }
             default -> {
-                return "There is no month with this number";
+                return "There is no month with this number ";
             }
         }
     }
