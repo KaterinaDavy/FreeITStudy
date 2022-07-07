@@ -1,17 +1,32 @@
 import java.util.Scanner;
 import java.util.Random;
 
-//public class Game {
-//    public static void main(String[] args) {
-//
-//        Random letter = new Random();
-//        char computerLetter = (char) (letter.nextInt(26) + 'a');
-////        int computerLetter = letter.nextInt(26);
+public class Game {
+    public static void main(String[] args) {
+
+        Random letter = new Random();
+        char computerLetter = (char) (letter.nextInt(26) + 'a');
+//        int computerLetter = letter.nextInt(26);
+//        char ch=
+//        System.out.println(computerLetter);
 //        System.out.println("Enter a letter");
+////
+////
+////
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a letter");
+        String name = scanner.nextLine();
+//        boolean exit = false;
+//        while (!exit) {
 //
+//            int scannerLetter = scanner.nextLine().charAt(0);
 //
-//
-//        Scanner scanner = new Scanner(System.in);
+//            if (computerLetter == scannerLetter) {
+//                System.out.println("Win");
+//            } else if (computerLetter-scannerLetter < 5)
+//                System.out.println("Hot");
+//        }
+
 //        while (true){
 //            String myAnswer = letter.nextLine();
 //            char myLetter = myAnswer.charAt(0);
@@ -34,5 +49,5 @@ import java.util.Random;
 //
 //
 //
-//    }
-//}
+    }
+}
