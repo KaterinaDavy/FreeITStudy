@@ -15,7 +15,7 @@ public class Game {
             int scannerLetter = scanner.nextLine().charAt(0);
 
             if (computerLetter == scannerLetter) {
-                System.out.println("Win");
+                System.out.println("You won");
                 break;
             } else if (computerLetter-scannerLetter < 5) {
                 System.out.println("Hot");
